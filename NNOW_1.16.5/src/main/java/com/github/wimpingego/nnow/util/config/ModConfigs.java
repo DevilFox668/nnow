@@ -217,7 +217,7 @@ public class ModConfigs {
 	        LAVA_BLOCK_LOADED = builder.comment().define("Lava Well block is loaded", true);
 	        WATER_BLOCK_LOADED = builder.comment().define("Water Well block is loaded", true);
 	        COBBLE_GEN_LOADED = builder.comment().define("Cobblestone Generator block is loaded", true);
-	        GIVEONLOGIN = builder.comment().define("Gives the player the Troll item(s) when loading into a world", true);
+	        GIVEONLOGIN = builder.comment().define("Gives the player the Troll item(s) when loading into a world", false);
         builder.pop();
         }
     }
